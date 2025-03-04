@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica 1</title>
+	<style type="text/css">
+		body{
+			background: skyblue;
+		}
+		h1{
+			text-align: center;
+		}
+		h2{
+			text-align: center;
+		}
+		
+		td{
+			border: 5px solid skyblue;
+		}
+		table{
+			margin: auto;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Volkswagen Potosina</h1>
+	<h2>Compras online</h2>
+	<form action="" method="post" enctype="text/plain">
+		<fieldset>
+			<legend>Información general del cliente</legend>
+
+			<table style="margin: auto;">
+				<tbody>
+
+					<td><label for="nombre">Nombre:</label> 
+						<input type="text" name="nombre" id="nombre" placeholder="Nombre"></td>
+
+					<td><label for="paterno">Apellido paterno</label> <br/>
+						<input type="text" name="paterno" id="paterno" placeholder="Apellido paterno"> </td>
+
+					<td><label for="materno">Apellido materno</label> 
+						<input type="text" name="materno" id="materno" placeholder="Apellido materno"><br/> </td>
+				</tbody>
+				<tbody>
+					<td><label for="usuario">Nombre de usuario</label><br/>
+						<input type="text" name="usuario" id="usuario" placeholder="Usuario"></td>
+
+					<td><label for="password">Password</label>
+						<input type="pass" name="password" id="password" placeholder="Password"></td>
+
+					<td><label for="registro">Fecha de registro</label>
+						<input type="date" name="registro" id="registro">
+				</tbody>
+			</table>
+		
+		</fieldset>
+
+		<fieldset>
+			<legend>Datos para facturar</legend>
+			
+			<table>
+				<tbody>
+
+					<td><label for="pais">País</label><br/>
+						<select name="pais" id="pais" size="3">
+						<option value="1">México</option>
+						<option value="2">Cánada</option>
+						<option value="3">Reino Unido</option>
+						<option value="4">Alemania</option>
+						<option value="5">Argentina</option>
+						<option value="6">Brasil</option>
+						<option value="7">Francia</option>
+						<option value="8">Chile</option>
+						<option value="9">Ecuador</option>
+					</select> </td><br/>
+
+					<td><label for="ciudad">Ciudad</label><br/>
+						<select name="pais" id="pais" size="3">
+							<option value="1">San Luis Potosí</option>
+							<option value="2">Monterrey</option>
+							<option value="3">Cd. Valles</option>
+							<option value="4">Veracruz</option>
+							<option value="5">Oaxaca</option>
+							<option value="6">Puebla</option>
+							<option value="7">Tijuana</option>
+							<option value="8">Ciudad de México</option>
+							<option value="9">Toluca</option>
+						</select> </td>
+
+					<td><label for="calle">Calle</label><br/>
+						<input type="text" name="calle" id="calle" placeholder="Calle"><br/></td>	
+				</tbody>
+				<tbody>
+					<td><label for="NumCas">Numero de casa</label><br/>
+					<input type="text" name="NumCas" id="NumCas" placeholder="Número exterior"></td>
+
+					<td><label for="Colonia">Colonia</label><br/>
+					<input type="text" name="Colonia" id="Colonia" placeholder="Colonia"></td>
+
+					<td><label for="email">E-mail</label><br/>
+					<input type="email" name="email" id="E-mail" placeholder="E-mail">
+				</tbody>
+				<tbody>
+					<td><label for="RFC">R.F.C</label><br/>
+					<input type="text" name="RFC" id="RFC" placeholder="R.F.C"></td>
+
+					<td><label for="cp">C.P.</label><br/>
+					<input type="text" name="cp" id="cp" placeholder="Código postal"></td>
+
+					<td><input type="checkbox" name="acepto" id="acepto" value="1" checked>
+						<label for="acepto">Acepto términos y condiciones</label> <br/>
+						<input type="submit" name="enviar" id="enviar" value="Enviar"> 
+						<input type="reset" name="restablecer" id="restablecer" value="Restablecer"></td>
+				</tbody>
+			</table>
+		</fieldset>
+	</form>
+	<footer style="text-align: right; margin: 15px; "><strong>Febrero 2025, SLP.</strong></footer>
+</body>
+</html>
