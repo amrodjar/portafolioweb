@@ -1,0 +1,93 @@
+body{
+	background-color: #f2f2f2;
+}
+table{
+	width: 100%;
+	padding: 1px;
+}
+td a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+h1{
+	size: 280px;
+}
+
+.imagenes{
+	border: 2px solid red;
+	border-radius: 10px;
+}
+
+.imagenes_platos img{
+	border: 2px solid red;
+	border-radius: 10px;
+	height: 175px;
+	width: 175px;
+}
+
+.img_main{
+	border: 2px solid red;
+	border-radius: 10px;
+	height: 300px;
+	width: 550px;
+
+	
+}
+
+.table_main{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-left: 25px;
+}
+
+.text_main{
+	font-size: 150px;
+	color: #ff611d;
+	line-height: 125px
+}
+
+.up a{
+	text-align: left;
+	color: red;
+	font-weight: bold;
+}
+
+hr{
+	width:100%;
+	border: 0;
+	border-top: 2px solid #ff0000;
+}
+
+.img-rayita{
+	text-align: right;
+}
+
+.img-rayita img{
+	width: 50px;
+	height: 50px;
+}
+
+.saborm{
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.table_up td {
+        overflow: hidden;
+}
+
+.mostrar-mas a{
+	color: red;
+}
+
+.mostrar-mas{
+	text-align: right;
+}
+
+.subtitulos{
+	color:#ff611d;
+	font-weight: bold;
+}
