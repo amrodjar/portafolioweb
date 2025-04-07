@@ -1,0 +1,57 @@
+hr{
+	width:100%;
+	border: 0;
+	border-top: 2px solid #ff0000;
+}
+
+.saborm{
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.table_up td {
+        overflow: hidden;
+}
+
+.up a{
+	text-align: left;
+	color: red;
+	font-weight: bold;
+}
+
+.saborm a{
+	text-align: left;
+	color: red;
+	font-weight: bold;
+}
+
+.img-rayita{
+	text-align: right;
+}
+
+.img-rayita img{
+	width: 50px;
+	height: 50px;
+}
+
+body{
+	background-color: #f2f2f2;
+}
+table{
+	width: 100%;
+	padding: 1px;
+}
+td a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+h1{
+	size: 280px;
+}
+
+.menu{
+	color: red;
+}
