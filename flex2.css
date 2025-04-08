@@ -19,7 +19,7 @@
 
 .contenido{
 	display: flex;
-	flex-direction: space-between;
+	flex-direction: column;
 	flex: 1;	
 }
 
