@@ -19,7 +19,7 @@
 
 .contenido{
 	display: flex;
-	flex-direction: column;
+	flex-direction: space-between;
 	flex: 1;	
 }
 
@@ -39,7 +39,7 @@
 	font-size: 14px;
 }
 
-@media(max-width:500){
+@media(max-width:500px){
 	.contenido{
 		flex-direction: column;
 	}
