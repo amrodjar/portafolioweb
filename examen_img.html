@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="examen_img.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Examen parcial 2</title>
+</head>
+<body>
+	<h1>Examen práctico Parcial 2</h1>
+	<h2>Nombre del alumno: Amrod Jared Rodríguez González</h2>
+	<h2>Matrícula: 185734</h2>
+	<button class="boton1" onmouseover="ocultar()" onmouseout="mostrar()">Galería de imágenes</button>
+	<br/>
+	<script type="text/javascript">
+	function ocultar() {
+	    document.querySelectorAll("img").forEach(function(imagen) {
+	        imagen.style.visibility = "hidden";
+	    });
+	}
+	function mostrar() {
+	    document.querySelectorAll("img").forEach(function(imagen) {
+	        imagen.style.visibility = "visible";
+	    });
+	}
+	</script>
+
+	</script>
+	<table>
+			<td>
+			  <div>
+			    <a class="imagenes"><img src="imagenes/rubik3x3.jfif"></a>
+			  </div>
+			</td>
+
+			<td>
+			  <div>
+			    <a class="imagenes"><img src="imagenes/rubik2x2.jfif"></a>
+			  </div>
+			</td>
+
+			<td>
+			  <div>
+			    <a class="imagenes"><img src="imagenes/pyraminx.jfif"></a>
+			  </div>
+			</td>
+
+			<td>
+			  <div>
+			    <a class="imagenes"><img src="imagenes/megaminx.jfif"></a>
+			  </div>
+			</td>
+		</table>
+</body>
+</html>

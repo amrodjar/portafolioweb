@@ -1,0 +1,45 @@
+body{
+	background-color: skyblue;
+}
+h1, h2{
+	text-align: center;
+}
+
+table{
+	margin: auto;
+}
+
+.imagenes{
+	height: 300px;
+	width: 550px;
+}
+
+.imagenes img{
+	border: 4px solid blue;
+	border-radius: 10px;
+	height: 175px;
+	width: 175px;
+}
+
+input{
+	text-align: center;
+}
+
+button{
+background-color: blue; 
+color: white;
+border: 4px solid blue;
+border-radius: 10px;
+}
+
+button:hover {
+border: 4px solid white;
+border-radius: 10px;
+background-color: white; 
+color: blue;
+}
+
+button {
+  display: block;
+  margin: auto;
+}
