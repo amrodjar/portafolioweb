@@ -1,0 +1,25 @@
+.form{
+    background-color: skyblue;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 800px;
+}
+body {
+    background-color: steelblue;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form input[type="button"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
